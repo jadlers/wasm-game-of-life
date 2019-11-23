@@ -17,6 +17,15 @@
   <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
 </div>
 
+# My additions
+
+To run project:
+1. Run `wasm-pack build` in the root of the repository.
+2. `cd www` && `npm install` and then you can run it with `npm run start`
+
+Redo both steps if you change anything in the root src directory. Changes in
+`www/` should hot reload with `npm run start`.
+
 ## About
 
 [**📚 Read this template tutorial! 📚**][template-docs]
